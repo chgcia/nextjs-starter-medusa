@@ -1,0 +1,415 @@
+repo_name: chgcia/nextjs-starter-medusa
+report_id: 21d314b13e36f259f161c5ffd7ec6280
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-19T07:17:02+00:00'
+requested_by: VariableVic
+provider: github
+branch: main
+detected_tools_count: 31
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2022-07-07 11:04:59.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 14.0.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2024-01-09 10:10:43.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-06-22 07:17:47.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-06-22 07:17:47.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2024-01-09 10:10:43.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2023-11-09 10:38:18.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.22.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2022-07-07 11:04:59.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 9.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2023-11-09 10:38:18.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-06-22 07:17:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa
+  detection_source: Repo Metadata
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: fPolic
+  last_updated_on: 2023-06-14 12:09:00.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.88.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2023-09-19 09:19:33.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: olivermrbl
+  last_updated_on: 2023-05-17 17:29:30.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-06-22 07:17:47.000000000 Z
+- name: Algolia
+  description: Developer-friendly API and complete set of tools for building search
+  website_url: https://www.algolia.com/?utm_source=stackshare&utm_medium=referral
+  version: 4.20.0
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2023-11-20 15:36:40.000000000 Z
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/netlify.toml
+  detection_source: netlify.toml
+  last_updated_by: Shahed Nasser
+  last_updated_on: 2022-07-25 17:24:33.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2022-07-07 11:04:59.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: fPolic
+  last_updated_on: 2023-06-19 10:26:49.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.22.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2022-07-07 11:04:59.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.198
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2024-01-09 10:10:43.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 17.0.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2024-01-09 10:10:43.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.40
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2024-01-09 10:10:43.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2024-01-09 10:10:43.000000000 Z
+- name: algoliasearch
+  description: A fully-featured and blazing-fast JavaScript API client to interact
+    with Algolia API
+  package_url: https://www.npmjs.com/algoliasearch
+  version: 4.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17074/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2023-11-20 15:36:40.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2022-07-07 11:04:59.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 13.4.19
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2023-10-27 09:42:59.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2024-01-09 10:10:43.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/chgcia/nextjs-starter-medusa/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Victor Gerbrands
+  last_updated_on: 2023-11-09 10:38:18.000000000 Z
